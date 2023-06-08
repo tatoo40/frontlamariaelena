@@ -1,0 +1,101 @@
+<!-- ============================================================== -->
+<!-- toggle and nav items -->
+<!-- ============================================================== -->
+<ul class="navbar-nav float-start me-auto">
+  <li class="nav-item d-none d-lg-block">
+    <a
+      (click)="toggleSidebar.emit()"
+      class="nav-link sidebartoggler waves-effect waves-light"
+      href="javascript:void(0)"
+    >
+      <i class="ti-menu"></i>
+    </a>
+  </li>
+</ul>
+<!-- ============================================================== -->
+<!-- Right side toggle and nav items -->
+<!-- ============================================================== -->
+<ul class="navbar-nav float-end">
+
+  <!-- ============================================================== -->
+  <!-- Search -->
+  <!-- ============================================================== -->
+  <li class="nav-item search-box">
+    <a
+      (click)="showSearch = !showSearch"
+      class="nav-link waves-effect waves-dark"
+      href="javascript:void(0)"
+    >
+      <i class="ti-search"></i>
+    </a>
+    <form
+      class="app-search position-absolute"
+      [ngClass]="{ 'show-search': showSearch }"
+    >
+      <input
+        type="text"
+        class="form-control"
+        placeholder="Search &amp; enter"
+      />
+      <a class="srh-btn" (click)="showSearch = !showSearch">
+        <i class="ti-close"></i>
+      </a>
+    </form>
+  </li>
+
+
+  <!-- ============================================================== -->
+  <!-- User profile and search -->
+  <!-- ============================================================== -->
+  <li class="nav-item" ngbDropdown placement="bottom-end">
+    <a
+      ngbDropdownToggle
+      class="nav-link text-muted waves-effect waves-dark pro-pic"
+      href="javascript:void(0)"
+      data-toggle="dropdown"
+      aria-haspopup="true"
+      aria-expanded="false"
+    >
+      <img
+        src="assets/images/users/user1.jpg"
+        alt="user"
+        class="rounded-circle"
+        width="31"
+      />
+    </a>
+    <div class="dropdown-menu-right user-dd" ngbDropdownMenu>
+      <div class="d-flex no-block align-items-center p-3 mb-2">
+        <div class="">
+          <img
+            src="assets/images/users/user1.jpg"
+            alt="user"
+            class="rounded"
+            width="70"
+          />
+        </div>
+        <div class="ms-2">
+          <h4 class="mb-0 fs-4">Juan Ignacio</h4>
+          <p class="text-muted mb-0 fs-2">jifb@gmail.com</p>
+          <a
+            href="javascript:void(0)"
+            class="btn btn-danger btn-rounded btn-sm mt-1"
+            >Ver perfil</a
+          >
+        </div>
+      </div>
+
+
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="javascript:void(0)">
+        <i class="ti-settings me-1 ms-1"></i> Configuracion</a
+      >
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="javascript:void(0)">
+        <i class="fa fa-power-off me-1 ms-1"></i> Salir</a
+      >
+    </div>
+  </li>
+  <!-- ============================================================== -->
+  <!-- User profile and search -->
+  <!-- ============================================================== -->
+</ul>

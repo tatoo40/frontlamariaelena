@@ -1,0 +1,13 @@
+[
+    {
+        "id":1,
+        "descripcion":"Entrada",
+        "signo":"1" 
+    },
+    {
+        "id":2,
+        "descripcion":"Salida",
+        "signo":"-1"
+    }       
+
+]

@@ -1,0 +1,19 @@
+[
+    {
+        "id":1,
+        "descripcion":"Zambrano",
+        "RUT":"23123123123123"
+
+    },
+    {
+        "id":2,
+        "descripcion":"Comisionista",
+        "RUT":"23123123123123"
+    },
+    {
+        "id":3,
+        "descripcion":"Transportista",
+        "RUT":"23123123123123"
+    }   
+
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "id":1,
+        "descripcion":"1-2 Novillo",
+        "id_tipo_ganado":1
+    },
+    {
+        "id":2,
+        "descripcion":"2-3 Novillo",
+        "id_tipo_ganado":1
+    },
+    {
+        "id":3,
+        "descripcion":"Vaca",
+        "id_tipo_ganado":1
+    }   
+
+]

@@ -1,0 +1,19 @@
+[
+    {
+        "id":1,
+        "descripcion":"Compra",
+        "id_tipo_motivo":1
+ 
+    },
+    {
+        "id":2,
+        "descripcion":"Alta Stock Ajuste",
+        "id_tipo_motivo":1
+    },
+    {
+        "id":3,
+        "descripcion":"Venta",
+        "id_tipo_motivo":2
+    }         
+
+]

@@ -1,0 +1,16 @@
+[
+    {
+        "id":1,
+        "descripcion":"Vendedor"
+
+    },
+    {
+        "id":2,
+        "descripcion":"Comisionista"
+    },
+    {
+        "id":3,
+        "descripcion":"Transportista"
+    }   
+
+]

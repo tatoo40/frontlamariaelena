@@ -1,0 +1,19 @@
+<div class="row">
+    <!-- column -->
+    <div class="col-lg-12">
+      
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title">Mi ganado</h4>
+          <h5 class="card-subtitle">Animales disponibles para visualizar o tomar acciones por animal</h5>
+          <form class="w-50 mb-4">
+            <input type='text' class="form-control" placeholder='Filtro por caravana.' (keyup)='updateFilter($event)' />
+          </form>
+          <ngx-datatable #table class='material' [columns]="columns" [columnMode]="'force'" [headerHeight]="50" [footerHeight]="50"
+            [rowHeight]="'auto'" [limit]="10" [rows]='rows'>
+          </ngx-datatable>
+        </div>
+      </div>
+    
+  </div>
+</div>

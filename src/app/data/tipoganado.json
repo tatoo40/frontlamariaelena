@@ -1,0 +1,15 @@
+[
+    {
+        "id":1,
+        "descripcion":"Vacuno"
+    },
+    {
+        "id":2,
+        "descripcion":"Ovino"
+    },
+    {
+        "id":3,
+        "descripcion":"Equino"
+    }        
+
+]

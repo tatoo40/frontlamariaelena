@@ -1,0 +1,43 @@
+[
+    {
+        "id":1,
+        "cod_articulo":"NOVHER12A",
+        "id_categoria":1,
+        "id_raza":1,
+        "descripcion":"Novillo Hereford 1-2 anios",
+        "id_unidad":1,
+        "id_unidad2":2,
+        "id_tipo_articulo":"1"
+    },
+    {
+        "id":2,
+        "cod_articulo":"NOVHER23A",        
+        "id_categoria":2,
+        "id_raza":1,
+        "descripcion":"Novillo Hereford 2-3 anios",
+        "id_unidad":1,
+        "id_unidad2":2,
+        "id_tipo_articulo":"1"        
+    },
+    {
+        "id":3,
+        "cod_articulo":"NOVBRA23A",            
+        "id_categoria":2,
+        "id_raza":3,
+        "descripcion":"Novillo Bradford 2-3 anios",
+        "id_unidad":1,
+        "id_unidad2":2,
+        "id_tipo_articulo":"1"        
+    },    
+    {
+        "id":4,
+        "cod_articulo":"VACANG",          
+        "id_categoria":3,
+        "id_raza":2,
+        "descripcion":"Vaca Angus",
+        "id_unidad":1,
+        "id_unidad2":2,
+        "id_tipo_articulo":"1"        
+    }   
+
+]

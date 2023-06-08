@@ -1,0 +1,19 @@
+[
+
+    {
+        "id":1,
+        "descripcion":"Hereford",
+        "id_tipo_ganado":1
+
+    },
+    {
+        "id":2,
+        "descripcion":"Angus",
+        "id_tipo_ganado":1
+    },
+    {
+        "id":3,
+        "descripcion":"Bradford",
+        "id_tipo_ganado":1
+    }            
+]
